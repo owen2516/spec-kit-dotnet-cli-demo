@@ -25,9 +25,9 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure `src/` and `tests/` at repository root
-- [ ] T002 Initialize Python environment and register dependencies in `requirements.txt`
-- [ ] T003 [P] Configure linting and formatting tools (create `.flake8` or `pyproject.toml`)
+- [X] T001 Create project structure `src/` and `tests/` at repository root
+- [X] T002 Initialize Python environment and register dependencies in `requirements.txt`
+- [X] T003 [P] Configure linting and formatting tools (create `.flake8` or `pyproject.toml`)
 
 ---
 
@@ -37,10 +37,10 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T004 Initialize SQLite cache database connection and table schema in `src/cache.py`
-- [ ] T005 [P] Seed local embedded database containing top cities and US zip codes in `src/cache.py`
-- [ ] T006 [P] Create standard custom CLI exceptions and exit code mapping (0, 1, 2) in `src/main.py`
-- [ ] T007 Setup pytest testing configurations and mock API fixtures in `tests/conftest.py`
+- [X] T004 Initialize SQLite cache database connection and table schema in `src/cache.py`
+- [X] T005 [P] Seed local embedded database containing top cities and US zip codes in `src/cache.py`
+- [X] T006 [P] Create standard custom CLI exceptions and exit code mapping (0, 1, 2) in `src/main.py`
+- [X] T007 Setup pytest testing configurations and mock API fixtures in `tests/conftest.py`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 

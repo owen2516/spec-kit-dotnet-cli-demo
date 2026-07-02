@@ -1,0 +1,29 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# SQLite database files
+*.db
+
+# Exported files
+*.ics
+
+# OS files
+.DS_Store
+Thumbs.db
