@@ -98,10 +98,18 @@
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
 - **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
+### Non-Functional & Quality Requirements
+
+*Per the project constitution, specifications must define performance and user experience consistency constraints:*
+
+- **NFR-001 (UX)**: System interface (CLI / GUI) MUST follow [guideline/standard, e.g., "unified command help menus and exit codes"] to ensure user experience consistency.
+- **NFR-002 (PERF)**: Execution time / API response time MUST remain under [metric, e.g., "500ms for standard dataset operations"] to meet performance requirements.
+
 ### Key Entities *(include if feature involves data)*
 
 - **[Entity 1]**: [What it represents, key attributes without implementation]
 - **[Entity 2]**: [What it represents, relationships to other entities]
+
 
 ## Success Criteria *(mandatory)*
 

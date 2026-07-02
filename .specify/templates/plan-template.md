@@ -40,7 +40,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Code Quality Check**: Does the proposed design adhere to clean code guidelines, maintain low coupling, and avoid over-engineering?
+- [ ] **Testing Standards Check**: Are unit tests and integration tests planned for all new/modified functionality? Is the target coverage at least 80%?
+- [ ] **UX Consistency Check**: Does the design follow the CLI/GUI interactive guidelines, unified formatting, and error message standards?
+- [ ] **Performance Requirements Check**: Are performance baselines established? Are there clear optimization or monitoring strategies in place?
+
 
 ## Project Structure
 
